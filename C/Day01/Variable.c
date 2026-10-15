@@ -6,10 +6,10 @@
      float pi=3.14;
      char star='*';
      int _age=20;
-      printf("a=%d \n",a );// output,[%D,%C,%f]-format specifiers
-      printf("pi=%f \n",pi);
-      printf("star=%c \n",star);
-      printf("_age=%d \n",_age);
+      printf("a=%d ",a );// output,[%D,%C,%f]-format specifiers
+      printf("pi=%f ",pi);
+      printf("star=%c ",star);
+      printf("_age=%d ",_age);
     return 0;
  }
 // constants,keywords,C structure,comments

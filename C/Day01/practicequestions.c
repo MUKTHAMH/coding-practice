@@ -1,7 +1,7 @@
 // area of square
 /* #include <stdio.h>
 int main(){
-    int side , area;
+    int side, area;
     printf("enter side:");
     scanf("%d", &side);
     area = side * side;
@@ -9,13 +9,19 @@ int main(){
     return 0;
 }*/
 // area of circle 
+// #include <stdio.h>
+// int main (){
+//     float radius , area;
+//     float pi = 3.142;
+//     printf("enter the radius ");
+//     scanf("%f", &radius);
+//     area = pi * radius * radius;
+//     printf("area of circle is : %f",area);
+//     return 0;
+// }
+// 
 #include <stdio.h>
 int main (){
-    float radius , area;
-    float pi = 3.142;
-    printf("enter the radius ");
-    scanf("%f", &radius);
-    area = pi * radius * radius;
-    printf("area of circle is : %f",area);
-    return 0;
-}
+    char star = '*';
+    printf("star is :%c", star);
+    return 0;}

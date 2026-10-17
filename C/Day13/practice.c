@@ -7,7 +7,7 @@ int main(){
     // // gets(str);
     // fgets(str,100,stdin);
     //  puts(str);
-    char *canchange = "hello world";
+    char *canchange = "hello world";//pointer value can be changes but not arrays->char canchange[] -> no
     puts(canchange);
     canchange = "hello";
     puts(canchange);
